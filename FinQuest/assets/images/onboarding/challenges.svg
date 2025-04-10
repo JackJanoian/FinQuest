@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Trophy Badge -->
+  <circle cx="100" cy="100" r="80" fill="#E3F2FD"/>
+  <path d="M70 60 L130 60 L130 100 Q130 130 100 130 Q70 130 70 100 Z" fill="#90CAF9"/>
+  <rect x="85" y="130" width="30" height="20" fill="#64B5F6"/>
+  <path d="M70 150 L130 150 L120 170 L80 170 Z" fill="#64B5F6"/>
+  <circle cx="100" cy="85" r="20" fill="#2196F3"/>
+  <path d="M90 80 L100 95 L110 75" stroke="white" stroke-width="4" fill="none"/>
+  <path d="M60 60 L50 60 L50 80 Q60 85 50 90 L50 100 Q65 95 70 90" fill="#BBDEFB"/>
+  <path d="M140 60 L150 60 L150 80 Q140 85 150 90 L150 100 Q135 95 130 90" fill="#BBDEFB"/>
+</svg>

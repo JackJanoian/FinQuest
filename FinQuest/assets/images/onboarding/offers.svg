@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Gift/Offers Illustration -->
+  <circle cx="100" cy="100" r="80" fill="#E3F2FD"/>
+  <rect x="60" y="80" width="80" height="60" rx="5" fill="#90CAF9"/>
+  <rect x="95" y="70" width="10" height="20" fill="#64B5F6"/>
+  <rect x="60" y="100" width="80" height="5" fill="#2196F3"/>
+  <path d="M60 100 L140 100" stroke="#1976D2" stroke-width="2"/>
+  <circle cx="75" cy="90" r="5" fill="#1976D2"/>
+  <circle cx="125" cy="90" r="5" fill="#1976D2"/>
+  <rect x="70" y="110" width="25" height="25" fill="#BBDEFB"/>
+  <rect x="105" y="110" width="25" height="25" fill="#BBDEFB"/>
+  <path d="M70 140 L95 140 L95 110 M105 140 L130 140 L130 110" stroke="#64B5F6" stroke-width="2" fill="none"/>
+  <circle cx="140" cy="70" r="15" fill="#4CAF50"/>
+  <text x="140" y="75" font-size="20" text-anchor="middle" fill="white">%</text>
+</svg>

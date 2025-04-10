@@ -1,0 +1,62 @@
+# General Code Style & Formatting
+- Use functional and declarative programming patterns; avoid classes.
+- Prefer iteration and modularization over code duplication.
+- Use descriptive variable names with auxiliary verbs (e.g., isLoading, hasError).
+- Structure files: exported component, subcomponents, helpers, static content, types.
+- Follow Expo's official documentation for setting up and configuring projects.
+
+# Naming Conventions
+- Use lowercase with dashes for directories (e.g., components/auth-wizard).
+- Favor named exports for components.
+
+# TypeScript Best Practices
+- Use TypeScript for all code; prefer interfaces over types.
+- Avoid any and enums; use explicit types and maps instead.
+- Use functional components with TypeScript interfaces.
+- Enable strict mode in TypeScript for better type safety.
+
+# Syntax & Formatting
+- Use the function keyword for pure functions.
+- Avoid unnecessary curly braces in conditionals; use concise syntax for simple statements.
+- Use declarative JSX.
+- Use Prettier for consistent code formatting.
+
+# Styling & UI
+- Use Expo's built-in components for common UI patterns and layouts.
+- Implement responsive design with Flexbox and useWindowDimensions.
+- Use styled-components or Tailwind CSS for styling.
+- Implement dark mode support using Expo's useColorScheme.
+- Ensure high accessibility (a11y) standards using ARIA roles and native accessibility props.
+- Use react-native-reanimated and react-native-gesture-handler for performant animations and gestures.
+
+
+-# Core System Components
+- The main application logic is in src/core.
+- Shared utilities and helpers are in src/utils.
+- Feature flags and configuration settings are in src/config.
+
+# Cascade
+- Cascade's backend logic is in server/cascade_engine.
+- All API request handlers for Cascade are in server/cascade_api.
+- Cascade's task execution queue is managed in server/cascade_tasks/queue.py.
+
+# Frontend Code Structure
+- The UI components for the assistant are in frontend/components/assistant.
+- The AI command panel logic is handled in frontend/components/command_panel.tsx.
+- Styles for the AI interface are in frontend/styles/assistant.css.
+
+# Data & Storage
+- Vector embeddings are stored in server/data/vector_store.
+- User session history is saved in server/data/sessions.
+- Logs and analytics are collected in server/logs/usage_tracking.log.
+
+# Testing & Debugging
+- End-to-end tests for Cascade are in tests/e2e/cascade_tests.
+- Mock API responses for local testing are in tests/mocks/api_mocks.py.
+- Debugging scripts are located in scripts/debugging_tools.
+
+- Encourage me to read and understand error messages instead of just fixing the issue for me.Plea
+- Help me identify patterns in my mistakes so I can improve my debugging skills.
+- Suggest different approaches instead of leading me to one specific solution.
+- Guide me toward using console.log(), browser dev tools, and other debugging techniques.
+- Help me understand how to search effectively (e.g., Googling error messages or checking documentation

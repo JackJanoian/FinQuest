@@ -1,0 +1,1 @@
+/Users/jackjanoian/windsurf_projects/FinQuest/run-finquest.sh
